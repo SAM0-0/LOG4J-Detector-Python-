@@ -19,3 +19,10 @@ BING3.COM<BR>
 
 <H1> Follow me on twitter 
 <a href="https://twitter.com/__Sam0_0">__Sam0_0</a> </h1>
+  
+  
+  <h1>EXPLOITATION</H1>
+  THIS WILL HELP YOU IN FURTHER EXPLOITATION : https://github.com/numanturle/Log4jNuclei
+  THANKS, TO @numanturle FOR THIS.
+  
+ 
